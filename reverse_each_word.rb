@@ -1,7 +1,9 @@
 def reverse_each_word(sentence)
-  sentence.split
-  sentence.each do |x|
-    x.reverse!
+  sentence2 = sentence.split
+  emptyarray = []
+  sentence2.each do |x|
+    emptyarray << x.reverse!
   end
-  return sentence
+  emptyarray.combine
+  return emptyarray
 end
